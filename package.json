@@ -1,0 +1,14 @@
+{
+  "name": "fb-gateway",
+  "version": "1.0.0",
+  "description": "Super lightweight Facebook Page Auto-Post Gateway for n8n",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --max-old-space-size=128 server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
